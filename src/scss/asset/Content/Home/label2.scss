@@ -1,0 +1,154 @@
+.label-container-2 {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    .label-title-2 {
+        display: flex;
+        justify-content: space-between;
+        h4 {
+            position: relative;
+            &:hover .line-2 {
+                display: flex;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: $black-color;
+            font-size: 12px;
+        }
+        .line-2 {
+            position: absolute;
+            top: 34px;
+            width: 285px;
+            height: 3px;
+            background-color: #c73030ed;
+            display: none;
+        }
+    }
+    .line {
+        width: 100%;
+        margin-top: 5px;
+        height: 3px;
+        background-color: #d4d4d4;
+    }
+    .label-images-2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        .label-box-1 {
+            position: relative;
+            width: 22%;
+            height: 500px;
+            background-image: url("https://cocoshop.vn/uploads/news/2020_05/kem-chong-nang.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            .label-box-title {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                padding: 0px 15px;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 15px;
+                top: 370px;
+                height: 23%;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+                h3 {
+                    margin-bottom: 10px;
+                }
+                span {
+                    font-size: 12px;
+                }
+            }
+        }
+        .label-box-2 {
+            position: relative;
+            width: 22%;
+            height: 500px;
+            background-image: url("https://cocoshop.vn/uploads/news/2020_03/coco-shop-my-pham-1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            .label-box-title {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                padding: 0px 15px;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 15px;
+                top: 360px;
+                height: 23%;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+                h3 {
+                    margin-bottom: 10px;
+                }
+                span {
+                    font-size: 12px;
+                }
+            }
+        }
+        .label-box-3 {
+            position: relative;
+            width: 22%;
+            height: 500px;
+            background-image: url("https://cocoshop.vn/uploads/news/2020_05/giay-tham-dau.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            .label-box-title {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                padding: 0px 15px;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 15px;
+                top: 360px;
+                height: 23%;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+                h3 {
+                    margin-bottom: 10px;
+                }
+                span {
+                    font-size: 12px;
+                }
+            }
+        }
+        .label-box-4 {
+            position: relative;
+            width: 23%;
+            height: 500px;
+            background-image: url("https://cocoshop.vn/uploads/news/2020_03/cac-buoc-trang-diem.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            .label-box-title {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                padding: 0px 15px;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 15px;
+                top: 360px;
+                height: 23%;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+            }
+            h3 {
+                margin-bottom: 10px;
+            }
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+}

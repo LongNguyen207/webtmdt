@@ -1,0 +1,134 @@
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    background-image: url("https://data.designervn.net/2018/10/5820_e324447ac85522f6e32596dbcf17d54e.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .footer-about {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .footer-about-mxh {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            .logo-coco {
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 100%;
+                }
+            }
+            .logo-bct {
+                width: 60%;
+                margin-top: 25px;
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 100%;
+                }
+            }
+            .logo-mxh {
+                display: flex;
+                width: 100%;
+                margin-top: 25px;
+                img {
+                    width: 10%;
+                    margin-right: 25px;
+                }
+            }
+        }
+        .footer-more {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            span {
+                margin-bottom: 100px;
+                color: white;
+                font-size: 14px;
+            }
+            img {
+                width: 50%;
+            }
+        }
+        .footer-contact {
+            display: flex;
+            flex-direction: column;
+            color: $white-color;
+            .support {
+                span {
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+                ul {
+                    margin-top: 10px;
+                    margin-left: 25px;
+                    font-size: 12px;
+                    li {
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .contact {
+                margin-top: 15px;
+                span {
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+                p {
+                    font-size: 12px;
+                    margin-top: 10px;
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .download {
+                margin-top: 25px;
+                span {
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+                .qr-app {
+                    display: flex;
+                    align-items: flex-end;
+                    margin-top: 25px;
+                }
+                .app-download {
+                    display: flex;
+                    flex-direction: column;
+                    color: $white-color;
+                    text-decoration: none;
+                    margin-left: 15px;
+                    span {
+                        background-color: $black-color;
+                        margin-top: 5px;
+                        font-size: 12px;
+                        padding: 5px;
+                        i {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer-line {
+        width: 95%;
+        display: flex;
+        margin: auto;
+        height: 3px;
+        margin-top: 25px;
+        background-color: #ffffff;
+    }
+    .footer-copyright {
+        margin-top: 15px;
+        color: $white-color;
+        text-align: center;
+        font-size: 12px;
+    }
+}

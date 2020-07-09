@@ -1,0 +1,49 @@
+.header-container {
+    width: 100%;
+    background: $black-color;
+    .header-wrapper {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        color: $white-color;
+        .header-number-phone {
+            display: flex;
+            width: 10%;
+            align-items: baseline;
+            justify-content: flex-end;
+            i {
+                margin-right: 5px;
+            }
+            a {
+                text-decoration: none;
+                color: $white-color;
+            }
+        }
+        .header-banner {
+            width: 60%;
+            display: flex;
+            font-size: 10px;
+        }
+        .header-leangue {
+            display: flex;
+            width: 10%;
+            align-items: center;
+            justify-content: flex-end;
+            .header-vi {
+                margin-right: 10px;
+                background-color: $white-color;
+                color: $black-color;
+                padding: 2px 8px;
+                text-decoration: none;
+                color: $black-color;
+            }
+            .header-en {
+                text-decoration: none;
+                color: $white-color;
+            }
+        }
+    }
+}

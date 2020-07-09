@@ -1,0 +1,38 @@
+//Color
+@import './asset/_color.scss';
+
+//Countdown 
+@import './asset/countdown.scss';
+
+//Image 
+@import './asset/_item-image';
+@import './asset/item-image-2';
+
+//Header
+@import './asset/Header/index.scss';
+@import './asset/Header/header.scss';
+@import './asset/Header/banner.scss';
+@import './asset/Header/nav.scss';
+
+//Content
+@import './asset/Content/content.scss';
+//Home
+@import './asset/Content/Home/index.scss';
+@import './asset/Content/Home/image-banner.scss';
+@import './asset/Content/Home/flash-sale.scss';
+@import './asset/Content/Home/label.scss';
+@import './asset/Content/Home/product.scss';
+@import './asset/Content/Home/banner-product.scss';
+@import './asset/Content/Home/label2.scss';
+@import './asset/Content/Home/store.scss';
+//Make Up Face
+@import './asset/Content/MakeUpFace/index.scss';
+@import './asset/Content/MakeUpFace/nav-bar.scss';
+@import './asset/Content/MakeUpFace/makeupface-content.scss';
+@import './asset/Content/MakeUpFace/search-filter.scss';
+@import './asset/Content/MakeUpFace/category-filter.scss';
+@import './asset/../asset/Content/MakeUpFace/product-seen.scss';
+
+//Footer
+@import './asset/Footer/footer.scss';
+

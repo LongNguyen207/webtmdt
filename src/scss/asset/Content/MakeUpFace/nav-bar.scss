@@ -1,0 +1,22 @@
+.nav-bar-wrapper {
+    width: 100%;
+    border: 1px solid #00000029;
+    .nav-bar-container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        line-height: 2;
+        font-size: 15px;
+        a {
+            text-decoration: none;
+            color:$black-color;
+            i {
+                margin-right: 5px;
+            }
+            span {
+                margin-right: 10px;
+            }
+        }
+    }
+}

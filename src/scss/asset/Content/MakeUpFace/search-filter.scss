@@ -1,0 +1,134 @@
+.search-filter-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    .search-filter {
+        display: flex;
+        .search {
+            font-weight: bold;
+        }
+        .fa-filter {
+            margin-right: 5px;
+        }
+    }
+    .search-makeup {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0px;
+        .search-make-title {
+            font-weight: bolder;
+            font-size: 14px;
+        }
+        .search-makeup-category {
+            display: flex;
+            flex-direction: column;
+            padding: 10px 10px 10px 0px;
+            .title-category {
+                text-decoration: none;
+                color: $black-color;
+                font-weight: bold;
+                padding-bottom: 15px;
+                font-size: 13px;
+                &:hover {
+                    color: #c73030;
+                }
+            }
+            .title-category-items {
+                padding: 10px 15px;
+                list-style-type: none;
+                font-size: 12px;
+                li {
+                    margin-bottom: 10px;
+                    a {
+                        text-decoration: none;
+                        color: $black-color;
+                    }
+                }
+            }
+        }
+    }
+    .line-kc {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 20px;
+            right: 0;
+            height: 110px;
+            width: 2px;
+            background-color: #c73030;
+        }
+    }
+    .line-cd {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 20px;
+            right: 0;
+            height: 110px;
+            width: 2px;
+            background-color: #c73030;
+        }
+    }
+    .line-th {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 20px;
+            right: 0;
+            height: 30px;
+            width: 2px;
+            background-color: #c73030;
+        }
+    }
+    .line-xx {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 20px;
+            right: 0;
+            height: 115px;
+            width: 3px;
+            background-color: #c73030;
+        }
+    }
+    .line-lsp {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 20px;
+            right: 0;
+            height: 90px;
+            width: 3px;
+            background-color: #c73030;
+        }
+    }
+    .line-tp {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 20px;
+            right: 0;
+            height: 80px;
+            width: 3px;
+            background-color: #c73030;
+        }
+    }
+    .line-dt {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 20px;
+            right: 0;
+            height: 90px;
+            width: 3px;
+            background-color: #c73030;
+        }
+    }
+}

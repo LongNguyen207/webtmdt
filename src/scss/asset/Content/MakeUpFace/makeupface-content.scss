@@ -1,0 +1,18 @@
+.makeupface-content-wrapper {
+    width: 100%;
+    .makeupface-content-container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        .container-1 {
+            width: 18%;
+        }
+        .container-2 {
+            width: 82%;
+        }
+        .container-3 {
+            width: 100%;
+        }
+    }
+}

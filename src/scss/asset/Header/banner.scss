@@ -1,0 +1,106 @@
+.banner-container {
+    width: 100%;
+    .banner-wrapper {
+        width: 90%;
+        height: 106px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .banner-logo {
+            width: 15%;
+            display: flex;
+            justify-content: center;
+            .logo-container {
+                display: flex;
+                flex-direction: column;
+                text-decoration: none;
+                color: $black-color;
+                .logo-coco {
+                    font-weight: bold;
+                    font-size: 25px;
+                    padding: 0px 5px;
+                    border: 1px solid black;
+                    border-radius: 12px;
+                }
+                .logo-shop {
+                    font-weight: bold;
+                    font-size: 15px;
+                    padding: 0px 18px;
+                    // border: 1px solid black;
+                    border-radius: 12px;
+                    margin-top: 2px;
+                }
+            }
+        }
+        .banner-search {
+            width: 50%;
+            display: flex;
+            justify-content: flex-start;
+            .input-search {
+               width: 80%;
+                height: 48px;
+                border: none;
+                background-color: #e5e4e4;
+                
+            }
+            .button-search {
+                width: 10%;
+                height: 48px;
+                border: none;
+                background-color: #d9d9d9;
+            }
+        }
+        .banner-user {
+            display: flex;
+            justify-content: flex-start;
+            width: 15%;
+            align-items: center;    
+            .img-user {
+                margin-right: 5px;
+            }
+            .banner-reg {
+                display: flex;
+                flex-direction: column;
+                a {
+                    text-decoration: none;
+                    color: $black-color;
+                    font-size: 12px;
+                }
+
+                .account {
+                    display: flex;
+                    align-items: stretch;
+                    font-size: 12px;
+                    .fa-sort-desc {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+        .banner-cart {
+            width: 20%;
+            display: flex;
+            justify-content: flex-end;
+            font-size: 12px;
+            .heart {
+                margin-right: 20px;
+            }
+            .cart {
+                display: flex;
+                align-items: center;
+                border: 1px solid black;
+                border-radius: 5px;
+                padding: 8px 20px;
+                text-decoration: none;
+                color: $black-color;
+                img {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+::placeholder {
+    padding-left: 15px;
+}

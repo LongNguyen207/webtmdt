@@ -1,0 +1,28 @@
+.product-seen-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    .product-seen-title {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h4{
+            margin-left: 20px;
+        }
+        a {
+            text-decoration: none;
+            color:#C73030;
+            font-size: 12px;
+            margin-right: 20px;
+        }
+    }
+    .product-seen-item {
+        width: 100%;
+        display: flex;  
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+}

@@ -1,8 +1,6 @@
 #Project Website Thương mại điện tử
 
-##Install
-
-
+## Install
 ```bash
 npm install
 ```

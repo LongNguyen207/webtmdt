@@ -1,3 +1,18 @@
+#Project Website Thương mại điện tử
+
+##Install
+
+
+```bash
+npm install
+```
+
+## Run Project
+```bash
+npm start
+```
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
